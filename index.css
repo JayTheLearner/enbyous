@@ -1,0 +1,24 @@
+body
+    {
+        background-color: black;
+    }
+
+div
+    {
+        background-color: black;
+    }
+
+#topbox
+    {
+              
+        justify-content: right;
+        margin: 0;
+    }
+
+#mack_title
+    {
+        font-size: 15rem;
+        color: white;
+        text-align: center;
+        margin: 0;
+    }
