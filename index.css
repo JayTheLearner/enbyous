@@ -1,12 +1,50 @@
 body
     {
-        background-color: black;
+        background-color: #390087;
+        margin: 0;
     }
 
-div
+.topbar
     {
+        position: fixed;
+        top: 0;
+        height: 40px;
+        width: 100vw;
         background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+           
     }
+
+#navbar
+    {
+        position: fixed;
+        top: 0;
+        height: 40px;
+        width: 100vw;
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+
+.topboxes
+    {
+        display: flex;
+        padding: 0;
+        flex-direction: row;
+        height: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: black;
+         margin: 10px;
+        
+    }
+
+
 
 #topbox
     {
@@ -15,10 +53,50 @@ div
         margin: 0;
     }
 
-#mack_title
+#upcoming_shows
     {
-        font-size: 15rem;
         color: white;
+        font-size:  8vh;
         text-align: center;
-        margin: 0;
+    }
+
+.actual-text
+    {
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+.actual-text:hover
+    {
+        color: red;
+        text-decoration: none;
+    }
+
+.pic-holder
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+.pics
+    {
+        display: flex;
+        width: 50vw;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+    }
+
+
+.pics img
+    {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+#div-to-make-room
+    {
+        height: 35px;
     }
