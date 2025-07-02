@@ -100,3 +100,10 @@ body
     {
         height: 35px;
     }
+
+#mac_pics
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
