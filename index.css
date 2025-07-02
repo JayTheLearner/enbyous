@@ -101,9 +101,16 @@ body
         height: 35px;
     }
 
-#mac_pics
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+#mac_pics {
+    display: flex;
+    justify-content: center;   
+    margin-top: 60px;
+    margin-bottom: 10px;         
+    width: 100%;               
+}
+
+#mac_pics img {
+    width: 80vw;              
+    height: auto;              
+    max-width: 100%;           
+}
