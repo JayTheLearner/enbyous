@@ -1,21 +1,13 @@
+/*For main page*/
+
 body
     {
         background-color: #390087;
         margin: 0;
+        padding: 0;
     }
 
-.topbar
-    {
-        position: fixed;
-        top: 0;
-        height: 40px;
-        width: 100vw;
-        background-color: black;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-           
-    }
+
 
 #navbar
     {
@@ -27,6 +19,7 @@ body
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        z-index: 999;
     }
 
 
@@ -112,5 +105,78 @@ body
 #mac_pics img {
     width: 80vw;              
     height: auto;              
-    max-width: 100%;           
+    max-width: 100%;
+    object-fit: cover;      
 }
+
+
+
+#layoutbox
+    {
+        width: 100%;
+        max-width: 100vw;
+        padding: 0;
+        position: absolute;
+        top: 10%;
+    }
+
+#layoutbox img
+    {
+        max-width: 100%;
+    }
+
+@media (orientation: portrait)
+    {
+    #layoutbox
+        {
+            background-color: #390087;
+            display: flex;
+	        flex-direction: column;
+            padding-top: 25%;
+        }
+
+    #social-media-links
+        {
+            background-color: #390087;
+            display: flex;
+	        flex-direction: row;
+            object-fit: cover;
+        }
+    }
+
+@media (orientation: landscape)
+    {
+    #layoutbox
+        {
+            background-color: #390087;
+            display: flex;
+	        flex-direction: row;
+        }
+
+    #social-media-links
+        {
+            background-color: #390087;
+            display: flex;
+	        flex-direction: column;
+            justify-content: space-evenly;
+            width: 25%;
+            object-fit: cover;
+            margin-top: 60px;
+        }
+    .social-media-logos
+        {
+            width: 30vw;
+            aspect-ratio: 1 / 1;
+            margin: 2vh 0;
+        }
+    
+    .social-media-logos img
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+
+    }
