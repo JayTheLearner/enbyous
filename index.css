@@ -152,6 +152,8 @@ body
             display: flex;
 	        flex-direction: row;
             object-fit: cover;
+            width: 30%;
+            height: auto;
         }
    
     }
