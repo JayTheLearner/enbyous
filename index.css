@@ -1,5 +1,9 @@
 /*all page*/
 
+* {
+    outline: 1px solid limegreen;
+}
+
 body
     {
         background-color: #390087;
