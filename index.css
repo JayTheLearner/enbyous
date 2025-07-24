@@ -1,4 +1,4 @@
-/*For main page*/
+/*all page*/
 
 body
     {
@@ -20,6 +20,7 @@ body
         justify-content: flex-end;
         align-items: center;
         z-index: 999;
+        margin: 0;
     }
 
 
