@@ -143,6 +143,12 @@ body
 	        flex-direction: row;
             object-fit: cover;
         }
+    
+     #navbar
+        {
+            width: 100%;
+            margin: 0;
+        }
    
     }
 
