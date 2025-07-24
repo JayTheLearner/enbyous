@@ -180,3 +180,19 @@ body
 
 
     }
+
+/* VideoBoxes*/
+
+.video-containers
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+.video
+    {
+       display: flex;
+       justify-content: center;
+       margin-top: 5vh;
+    }
