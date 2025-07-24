@@ -1,9 +1,5 @@
-/*all page*/
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;}
 
+/* Universal */
 body
     {
         background-color: #390087;
@@ -12,20 +8,6 @@ body
     }
 
 
-
-#navbar
-    {
-        position: fixed;
-        top: 0;
-        height: 40px;
-        width: 100%;
-        margin: 0;
-        background-color: black;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        z-index: 999;
-    }
 
 
 
@@ -42,22 +24,6 @@ body
         
     }
 
-
-
-#topbox
-    {
-              
-        justify-content: right;
-        margin: 0;
-    }
-
-#upcoming_shows
-    {
-        color: white;
-        font-size:  8vh;
-        text-align: center;
-    }
-
 .actual-text
     {
         color: white;
@@ -71,11 +37,51 @@ body
         text-decoration: none;
     }
 
+
+/* index */
+
+#layoutbox
+    {
+        width: 100%;
+        max-width: 100vw;
+        padding: 0;
+        position: absolute;
+        top: 10%;
+    }
+
+
+#mac_pics {
+    display: flex;
+    justify-content: center;   
+    margin-top: 60px;
+    margin-bottom: 10px;         
+    width: 100%;               
+}
+
+
+
+#mac_pics img {
+    width: 80vw;              
+    height: auto;              
+    max-width: 100%;
+    object-fit: cover;      
+}
+
+#layoutbox img
+    {
+        max-width: 100%;
+    }
+
+/* pics */
+
+
+
 .pic-holder
     {
         display: flex;
         flex-direction: row;
     }
+
 
 .pics
     {
@@ -94,44 +100,44 @@ body
         display: block;
     }
 
+/* upcoming-shows */
+
+#upcoming_shows
+    {
+        color: white;
+        font-size:  8vh;
+        text-align: center;
+    }
+
 #div-to-make-room
     {
         height: 35px;
     }
 
-#mac_pics {
-    display: flex;
-    justify-content: center;   
-    margin-top: 60px;
-    margin-bottom: 10px;         
-    width: 100%;               
-}
-
-#mac_pics img {
-    width: 80vw;              
-    height: auto;              
-    max-width: 100%;
-    object-fit: cover;      
-}
 
 
 
-#layoutbox
-    {
-        width: 100%;
-        max-width: 100vw;
-        padding: 0;
-        position: absolute;
-        top: 10%;
-    }
 
-#layoutbox img
-    {
-        max-width: 100%;
-    }
+
+
+
 
 @media (orientation: portrait)
     {
+
+    #navbar
+    {
+        position: fixed;
+        top: 0;
+        height: 40px;
+        width: 100%;
+        margin: 0;
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        z-index: 999;
+    }
     #layoutbox
         {
             background-color: #390087;
@@ -147,17 +153,25 @@ body
 	        flex-direction: row;
             object-fit: cover;
         }
-    
-     #navbar
-        {
-            width: 100%;
-            margin: 0;
-        }
    
     }
 
 @media (orientation: landscape)
     {
+
+    #navbar
+    {
+        position: fixed;
+        top: 0;
+        height: 40px;
+        width: 100%;
+        margin: 0;
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        z-index: 999;
+    }
     #layoutbox
         {
             background-color: #390087;
