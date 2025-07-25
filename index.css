@@ -131,8 +131,7 @@ body
         justify-content: flex-end;
         align-items: center;
         z-index: 999;
-        padding-left: env(safe-area-inset-left);
-        padding-right: env(safe-area-inset-right);
+        
     }
     #layoutbox
         {
@@ -181,6 +180,8 @@ body
         justify-content: flex-end;
         align-items: center;
         z-index: 999;
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
     }
     #layoutbox
         {
