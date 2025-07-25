@@ -19,7 +19,7 @@ body
         height: 100%;
         align-items: center;
         justify-content: flex-start;
-        background-color: red;
+        background-color: black;
          margin: 10px;
         
     }
@@ -50,7 +50,7 @@ body
     }
 
 
-#mac_pics {
+#front_page_pic {
     display: flex;
     justify-content: center;   
     margin-top: 60px;
@@ -60,7 +60,7 @@ body
 
 
 
-#mac_pics img {
+#front_page_pic img {
     width: 80vw;              
     height: auto;              
     max-width: 100%;
@@ -144,6 +144,7 @@ body
             display: flex;
 	        flex-direction: column;
             padding-top: 25%;
+
         }
 
     #social-media-links
@@ -168,7 +169,7 @@ body
         height: 40px;
         width: 100%;
         margin: 0;
-        background-color: black;
+        background-color: red;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -179,6 +180,7 @@ body
             background-color: #390087;
             display: flex;
 	        flex-direction: row;
+            width: 75%;
         }
 
     #social-media-links
@@ -193,7 +195,7 @@ body
         }
     .social-media-logos
         {
-            width: 30vw;
+            width: 30%;
             aspect-ratio: 1 / 1;
             margin: 2vh 0;
         }
