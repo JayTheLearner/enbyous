@@ -203,10 +203,11 @@ body
             width: 75%;
             object-fit: cover;
             margin-top: 60px;
+            align-items: center;
         }
     .social-media-logos
         {
-            width: 30%;
+            width: 50%;
             aspect-ratio: 1 / 1;
             margin: 2vh 0;
         }
